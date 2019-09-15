@@ -1,0 +1,106 @@
+{
+	"name": "ReactApp-2019-09-15-16-51-25",
+	"projectId": "26689608-d42f-4d81-83c5-013756c0b081",
+	"region": "us-east-2",
+	"state": "NORMAL",
+	"createdDate": "2019-09-15T14:50:58.531Z",
+	"lastUpdatedDate": "2019-09-15T14:51:02.911Z",
+	"consoleUrl": "https://console.aws.amazon.com/mobilehub/home#/26689608-d42f-4d81-83c5-013756c0b081/build",
+	"resources": [
+		{
+			"type": "AWS::Pinpoint::AnalyticsApplication",
+			"name": "reactapp20190915165125_MobileHub",
+			"arn": "7a1bc004ccaf4fc0829171a4b12a6134",
+			"feature": "analytics",
+			"attributes": {
+				"lastUpdateRequestID": "5d181e2c-146d-4f1f-8a32-e1cb681bdd40"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "reactapp_mobileanalytics_MOBILEHUB_1142032963",
+			"arn": null,
+			"feature": "analytics",
+			"attributes": {
+				"authType": "unauthenticated",
+				"lastUpdateRequestID": "5d181e2c-146d-4f1f-8a32-e1cb681bdd40",
+				"role": "reactapp_unauth_MOBILEHUB_1142032963"
+			}
+		},
+		{
+			"type": "AWS::Cognito::IdentityPool",
+			"name": "reactapp_MOBILEHUB_1142032963",
+			"arn": "us-east-2:898e7642-36bd-4380-910f-4cb9f3e15eb0",
+			"feature": "user-signin",
+			"attributes": {
+				"lastUpdateRequestID": "5d181e2c-146d-4f1f-8a32-e1cb681bdd40",
+				"poolid": "us-east-2:898e7642-36bd-4380-910f-4cb9f3e15eb0",
+				"roleARNs": "arn:aws:iam::616368292780:role/reactapp_unauth_MOBILEHUB_1142032963"
+			}
+		},
+		{
+			"type": "AWS::IAM::Role",
+			"name": "reactapp_unauth_MOBILEHUB_1142032963",
+			"arn": "arn:aws:iam::616368292780:role/reactapp_unauth_MOBILEHUB_1142032963",
+			"feature": "user-signin",
+			"attributes": {
+				"authType": "unauthenticated",
+				"lastUpdateRequestID": "5d181e2c-146d-4f1f-8a32-e1cb681bdd40"
+			}
+		},
+		{
+			"type": "AWS::S3::Bucket",
+			"name": "reactapp-hosting-mobilehub-1142032963",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"lastUpdateRequestID": "5d181e2c-146d-4f1f-8a32-e1cb681bdd40",
+				"region": "us-east-2",
+				"s3-bucket-console-url": "https://s3.console.aws.amazon.com/s3/buckets/reactapp-hosting-mobilehub-1142032963",
+				"s3-bucket-website-url": "https://s3.amazonaws.com/reactapp-hosting-mobilehub-1142032963"
+			}
+		},
+		{
+			"type": "AWS::CloudFront::Distribution",
+			"name": "dgdqzd08mpk4z.cloudfront.net",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"id": "E15WYX5G1T613L",
+				"lastUpdateRequestID": "5d181e2c-146d-4f1f-8a32-e1cb681bdd40"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "reactapp_hosting_MOBILEHUB_1142032963",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"authType": "unauthenticated",
+				"lastUpdateRequestID": "5d181e2c-146d-4f1f-8a32-e1cb681bdd40",
+				"role": "reactapp_unauth_MOBILEHUB_1142032963"
+			}
+		},
+		{
+			"type": "AWS::S3::Bucket",
+			"name": "reactapp-deployments-mobilehub-1142032963",
+			"arn": null,
+			"feature": "common",
+			"attributes": {
+				"region": "us-east-2",
+				"s3-bucket-console-url": "https://s3.console.aws.amazon.com/s3/buckets/reactapp-deployments-mobilehub-1142032963"
+			}
+		},
+		{
+			"type": "AWS::CloudFormation::Stack",
+			"name": "Development",
+			"arn": null,
+			"feature": "cloud-api",
+			"attributes": {
+				"primary": "true",
+				"region": "us-east-2",
+				"stateSummary": "NOT_YET_DEPLOYED"
+			}
+		}
+	]
+}

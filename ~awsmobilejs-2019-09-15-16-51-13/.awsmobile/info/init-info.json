@@ -1,0 +1,55 @@
+{
+	"projectPath": "C:\\Users\\Sipho\\documents\\ReactApp",
+	"projectInfo": {
+		"ProjectName": "ReactApp",
+		"ProjectPath": "C:\\Users\\Sipho\\documents\\ReactApp",
+		"InitializationTime": "",
+		"LastConfigurationTime": "",
+		"LastNPMInstallTime": "",
+		"FrontendLastBuildTime": "",
+		"LastPublishTime": "",
+		"BackendLastSyncTime": "",
+		"BackendLastBuildTime": "",
+		"BackendLastPushTime": "",
+		"BackendProjectID": "",
+		"BackendProjectName": "",
+		"BackendProjectConsoleUrl": "",
+		"BackendProjectCreationTime": "",
+		"BackendProjectLastUpdatedTime": "",
+		"Framework": "react"
+	},
+	"packageJson": {
+		"name": "cloud-mobi-fed-assement",
+		"version": "0.1.0",
+		"private": true,
+		"dependencies": {
+			"react": "^16.9.0",
+			"react-dom": "^16.9.0",
+			"react-scripts": "3.1.1"
+		},
+		"scripts": {
+			"start": "react-scripts start",
+			"build": "react-scripts build",
+			"test": "react-scripts test",
+			"eject": "react-scripts eject"
+		},
+		"eslintConfig": {
+			"extends": "react-app"
+		},
+		"browserslist": {
+			"production": [
+				">0.2%",
+				"not dead",
+				"not op_mini all"
+			],
+			"development": [
+				"last 1 chrome version",
+				"last 1 firefox version",
+				"last 1 safari version"
+			]
+		}
+	},
+	"framework": "react",
+	"initialStage": "clean-slate",
+	"strategy": "create"
+}
